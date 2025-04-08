@@ -1,0 +1,126 @@
+.node-heat::after {
+  content: "4";
+  position: absolute;
+  top: 0;
+  right: 100px;
+  font-size: 10px;
+  color: white;
+  background-color: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c_content {
+  margin: 10px 100px;
+}
+.c_title {
+  color: red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title-background {
+  width: 10px;
+  height: 20px;
+  background-color: red;
+  margin-right: 10px;
+}
+.title2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-none {
+  padding: 10px 40px;
+  border: none;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 5px #606060;
+  border-radius: 5px;
+}
+.text-black {
+  color: black;
+}
+.c_c_product{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.prouct-box {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.prouct-box-img-box {
+  height: 250px;
+  position: relative;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prouct-box-img{
+  padding: 20px;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.product-box-title{
+  font-size: 120%;
+  font-weight: 200;
+}
+.dola-red{color: red;}
+.dola-sale{
+  color: #808080;
+  text-decoration: line-through;
+  padding-left: 5px;
+}
+.sale-num{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 70%;
+}
+.sale-new{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #00FE67;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 70%;
+}
+.rac-box{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.star{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

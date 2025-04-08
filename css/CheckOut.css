@@ -1,0 +1,127 @@
+/* Nút trên giỏ hàng */
+.node-cart::after {
+  content: "2";
+  position: absolute;
+  top: 0;
+  right: 50px;
+  font-size: 10px;
+  color: white;
+  background-color: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.node-heat::after {
+  content: "4";
+  position: absolute;
+  top: 0;
+  right: 100px;
+  font-size: 10px;
+  color: white;
+  background-color: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Nội dung chính */
+.c_content {
+  margin: 20px 100px;
+}
+.c_content-bot {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.c_c_left {
+  width: 35%;
+}
+.c_c_left-input p {
+  color: #555;
+  margin: 5px 0px;
+}
+.c_c_left-input span {
+  color: red;
+}
+.c_c_left-input input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  height: 40px;
+}
+.c_c_left-checkbox {
+  width: 100%;
+  display: flex;
+}
+ input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.c_c_left-checkbox input:checked {
+  accent-color: red;
+}
+.c_c_right {
+  width: 40%;
+}
+.c_c_right1 {
+  margin-right: 100px;
+}
+.c_c_right-product {
+  display: flex;
+  justify-content: space-between;
+}
+.c_c_right-product-name,
+.c_c_right-bill,
+.c_c_right-bank {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.c_c_right-product-name img {
+  width: 40px;
+  margin-right: 10px;
+}
+.c_c_right-bank-input {
+  width: 20%;
+  display: flex;
+}
+.c_c_right-bank-input input,
+.c_c_right-cash input {
+  margin-right: 10px;
+}
+.c_c_right-bank-logo img {
+  height: 25px;
+}
+.c_c_right-cash {
+  display: flex;
+}
+.c_c_right-apply {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  width: 100%;
+}
+.btn {
+    width: 49%;
+  height: 40px;
+  padding: 10px 35px;
+  margin: 10px 0px;
+  background-color: white;
+  color: #555;
+  border-radius: 5px;
+  border: 1px solid #a0a0a0;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-place{
+    width: 30%;
+}

@@ -1,0 +1,84 @@
+.c_content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c_c-left {
+    width: 60%;
+}
+.c_c-right, .c_c-right2{
+    width: 30%;
+}
+.c_c-right form, .c_c-right2 form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 20px; 
+}
+.c_c-right form h1, .c_c-right2 form h1{
+    letter-spacing: 3px; 
+}
+.c_c-right form input, .c_c-right2 form input{
+    outline: none;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #555;
+}
+.c_c-right form button{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    height: 40px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+.btn-login{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-login button{
+    height: 40px;
+    padding: 10px 30px;
+}
+.btn-red2{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.btn-normal{
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+.btn-normal:hover{
+    color: red !important;
+    cursor: pointer;
+}
+.c_c-right form button img{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.btn-red{
+    color: rgb(255, 255, 255);
+    background-color: red !important;
+    border: none !important;
+}
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-in a{
+    text-decoration: none;
+    margin-left: 5px;
+    border-bottom: 1px solid #555;
+    color: black;
+}
